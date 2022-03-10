@@ -1,0 +1,43 @@
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  /* background-color: #343a40; */
+  background-color: #17a2b8;
+}
+
+#vdoprw {
+  border: 1px solid black;
+  display: block;
+}
+
+/* popup menu */
+
+.label {
+  border-radius: 12px;
+  color: white;
+  padding: 5px 12px;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.panel-body {
+  /* border: 1px solid #ccc; */
+  border: 1px solid #17a2b8;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.panel-title {
+  position: absolute;
+  background: #ffc107;
+  margin-top: -30px;
+  padding-left: 10px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+/* .sideImage {
+  background-image: url("{{ asset('public/images/admin_images/avatar04.png') }}");
+} */
